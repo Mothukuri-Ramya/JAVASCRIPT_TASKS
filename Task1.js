@@ -18,6 +18,6 @@ const greetFunction=function(name="Guest"){
 }
 console.log(greetFunction());
 
-//greet function as an arrow function
+//e.greet function as an arrow function
 const greet2=(name="Guest")=> `Hello,${name}!`;
 console.log(greet2());
