@@ -11,7 +11,7 @@ while(i<colors.length){
     i++;
 }
 
-//c.Use a for...of loop to iterate over the colors array and log each color to the console.
+//c.Use a for..of loop to iterate over the colors array and log each color to the console.
 for (color of colors){
     console.log(color);
 }
