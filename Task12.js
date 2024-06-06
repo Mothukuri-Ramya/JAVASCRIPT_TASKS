@@ -1,8 +1,8 @@
 //a.Use a for loop to iterate over the colors array and log each color to the console.
 let colors=["red","yellow","orange","green","white"];
-colors.forEach(function(element){
-    console.log(element);
-})
+for(let i=0;i<colors.length;i++){
+    console.log(colors[i]);
+}
 
 //b.Use a while loop to iterate over the colors array and log each color to the console.
 let i=0;
