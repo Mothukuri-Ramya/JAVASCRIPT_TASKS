@@ -1,4 +1,4 @@
-//a.Define the Employee Class. The class should take parameters for name, email, age, department, position, and salary. Inside the constructor method, set these parameters as properties of the employee object.
+//a.Define the Employee Class.The class should take parameters for name, email, age, department, position, and salary. Inside the constructor method, set these parameters as properties of the employee object.
 class Employee{
     constructor(name,email,age,department,position,salary){
         this.name=name;
