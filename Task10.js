@@ -1,4 +1,4 @@
-//a.Define the Book Class. The class should take parameters for title, author, publisher, year, and genre. Inside the constructor method, set these parameters as properties of the book object.
+//a.Define the Book Class.The class should take parameters for title, author, publisher, year, and genre. Inside the constructor method, set these parameters as properties of the book object.
 
 class Book{
     constructor(title,author,publisher,year,genre){
