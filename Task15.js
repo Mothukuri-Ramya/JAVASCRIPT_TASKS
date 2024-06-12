@@ -1,7 +1,7 @@
 //a.Define a variable named temperatures and assign it an array containing several temperature readings
 let temperatures=[-3,14,22,5,-10]
 /*
-b.Use the forEach method to iterate over the temperatures array and log each temperature to the console
+b.Use the forEach method to iterate over the temperatures array and log each temperature to the console.
 temperatures.forEach(function(element){
     console.log(element);
 });
@@ -37,3 +37,4 @@ let belowFreezing=temperatures.filter(element=>{
     }
 });
 console.log(belowFreezing);
+
