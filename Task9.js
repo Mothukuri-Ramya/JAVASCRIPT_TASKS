@@ -1,11 +1,11 @@
 //a.Define the Employee Class. The class should take parameters for name, email, age, department, position, and salary. Inside the constructor method, set these parameters as properties of the employee object.
 class Employee{
     constructor(name,email,age,department,position,salary){
-        this.name=name,
-       this.email=email,
-       this.age=age,
-       this.department=department,
-       this.position=position,
+        this.name=name;
+       this.email=email;
+       this.age=age;
+       this.department=department;
+       this.position=position;
        this.salary=salary;
     }
 //b.Add a method named introduce() inside the class that logs a greeting and the employee's name and position

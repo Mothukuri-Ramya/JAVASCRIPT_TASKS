@@ -2,11 +2,11 @@
 
 class Book{
     constructor(title,author,publisher,year,genre){
-        this.title=title,
-        this.author=author,
-        this.publisher=publisher,
-        this.year=year,
-        this.genre=genre
+        this.title=title;
+        this.author=author;
+        this.publisher=publisher;
+        this.year=year;
+        this.genre=genre;
     }
 //b.Add a method named describe() that logs a brief description of the book, combining the title, author, and year, e.g., "Five Point Someone - Chetan Bhagat (2004)
 
@@ -34,4 +34,5 @@ classicBook.describe();
 
 //g.Call the displayGenre() method on the sciFiBook object to log the genre.
 sciFiBook.displayGenre();
+
 

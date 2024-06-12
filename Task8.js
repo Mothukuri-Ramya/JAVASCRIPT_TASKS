@@ -29,11 +29,11 @@ console.log(topper);
 //c.Define a class called Student that takes parameters for name, email, age, country, city, and pin_code. Inside the class, set these parameters as properties of the new object. Make sure to add the greet method inside the class.
 class student{
     constructor(name,email,age,country,city,pincode){
-       this.name=name,
-       this.email=email,
-       this.age=age,
-       this.country=country,
-       this.city=city,
+       this.name=name;
+       this.email=email;
+       this.age=age;
+       this.country=country;
+       this.city=city;
        this.pincode=pincode;
 
 
