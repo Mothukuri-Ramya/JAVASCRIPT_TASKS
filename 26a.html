@@ -1,0 +1,18 @@
+<!--Create an HTML file with a <ul> element (empty or with some list items). Using JavaScript, add a new <li> element to the <ul> with the text "New Item".-->
+<!Doctype html>
+<html>
+    <body>
+        <ul>
+            <li> orange</li>
+            <li>Banana</li>
+            <li>Apple</li>
+        </ul>
+    </body>
+    <script>
+        const new_Element=document.createElement('li');
+        new_Element.textContent="Guava";
+        const fruits=document.querySelector('ul');
+        fruits.appendChild(new_Element);
+        
+    </script>
+</html>

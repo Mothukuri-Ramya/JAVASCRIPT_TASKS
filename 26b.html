@@ -1,0 +1,18 @@
+<!--Create an HTML file with a <ul> element containing several <li> items. Using JavaScript, remove the first <li> item from the <ul>.
+-->
+<!Doctype html>
+<html>
+    <body>
+        <ul>
+            <li>Rose</li>
+            <li>Lilly</li>
+            <li>Jasmine</li>
+            <li>Marigold</li>
+        </ul>
+    </body>
+    <script>
+        const flowers=document.querySelector('ul');
+        const firstitem=document.querySelector('li');
+        flowers.removeChild(firstitem);
+    </script>
+</html>
