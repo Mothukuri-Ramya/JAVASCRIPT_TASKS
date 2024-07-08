@@ -25,3 +25,5 @@ let student1={
     }
 };
 student1.greet();
+
+

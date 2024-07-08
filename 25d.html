@@ -1,0 +1,16 @@
+<!--Query Selector: Create an HTML file with a <div> element that has an ID attribute set to "myDiv" and contains the text "Hello, World!", and a <p> element with a class attribute set to "myClass" and contains the text "Paragraph". Using JavaScript, fetch the <div> element using the ID selector (#myDiv) and log its contents to the console. Then, fetch the <p> element using the class selector (.myClass) and log its contents to the console.-->
+<!Doctype html>
+<html>
+    <body>
+        <div id="myDiv">
+           Hello, World! 
+        </div>
+        <p class="myClass">Paragraph</p>
+    </body>
+    <script>
+        const myDiv=document.querySelector('#myDiv');
+        console.log(myDiv.textContent);
+        const myParagraph=document.querySelector('.myClass');
+        console.log(myParagraph.textContent);
+    </script>
+</html>

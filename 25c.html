@@ -1,0 +1,15 @@
+<!--Create an HTML file with two or more <p> elements, each containing different text. Using JavaScript, fetch all the <p> elements and log their contents to the console.-->
+<!Doctype html>
+<html>
+    <body>
+        <p>LinkedIn is a professional networking platform that was launched in 2003. It has grown to become the world's largest professional network, with over 700 million users globally. The platform is designed to help professionals connect, share experiences, and find job opportunities.</p>
+        <p>Naukri.com is one of India's leading online job portals, founded in March 1997 by Sanjeev Bikhchandani. It has become a pivotal platform for job seekers and employers, connecting millions of candidates with potential employers across various industries.</p>
+        <p>Career websites have revolutionized the way job seekers and employers connect. These platforms provide a vast array of resources, including job listings, resume services, career advice, and networking opportunities, making them indispensable tools in the modern job market.</p>
+    </body>
+    <script>
+        const myparagraphs=document.getElementsByTagName('p');
+        for (let i = 0; i < myparagraphs.length; i++) {
+    console.log(myparagraphs[i].textContent);
+}
+    </script>
+</html>

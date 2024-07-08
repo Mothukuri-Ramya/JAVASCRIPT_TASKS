@@ -37,6 +37,7 @@ let a=new Product(id,name,price,quantity);
 inventory.push(a);
 }
 
+
 let updateProduct=function (id,quantity){
     existing_product=inventory.find(function(product){
         return product.id==id;

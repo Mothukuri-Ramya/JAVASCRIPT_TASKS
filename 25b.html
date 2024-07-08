@@ -1,0 +1,18 @@
+<!--Create an HTML file with two or more <div> elements that have the same class "myClass" but contain different text. Using JavaScript, fetch all the elements with the class "myClass" and log their contents to the console.-->
+<!Doctype html>
+<html>
+    <body>
+        <div class="myClass">
+            Hello Techies!..
+        </div>
+        <div class="myClass">
+            Hope you are doing good.
+        </div>
+        <script>
+            const myClass=document.getElementsByClassName('myClass');
+            for (let i = 0; i < myClass.length; i++) {
+                console.log(myClass[i].textContent);
+            }
+        </script>
+    </body>
+</html>
