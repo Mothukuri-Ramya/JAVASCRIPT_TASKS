@@ -1,0 +1,22 @@
+<!--b.Create an HTML div element with some text. Using JavaScript, add a mouseover event listener to the div that changes the text color of the div to red when the mouse is over it.
+-->
+<!Doctype html>
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+    <body>
+        <div id="myDiv">
+            Hello Ramya..!
+        </div>
+        <script>
+            const element=document.querySelector('#myDiv');
+            element.addEventListener('mouseover',red);
+            function red(){
+                element.style.color="red";
+            };
+
+        </script>
+    </body>
+</html>

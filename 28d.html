@@ -1,0 +1,29 @@
+<!--d.Create a <button> element and a <div> element. When the button is clicked, toggle the visibility of the <div> element  -->
+<!Doctype html>
+<html>
+    <head>
+        <style>
+         #Id2{
+            display:none;
+         }
+        </style>
+    </head>
+    <body>
+        <button id="Id1">Hire me</button>
+        <div id="Id2">
+            You are imperfect
+        </div>
+        <script>
+            const element1=document.getElementById('Id1');
+            const element2=document.getElementById('Id2');
+            element1.addEventListener('click',change);
+            function change(){
+                if (element2.style.display==='none' || element2.style.display===''){
+                    element2.style.display='block';
+                   element2.textContent = "You are a perfect fit for this position";
+                }
+               
+            }
+        </script>
+    </body>
+</html>

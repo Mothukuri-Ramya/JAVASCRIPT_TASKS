@@ -1,0 +1,19 @@
+<!--c.Create an HTML input element. Using JavaScript, add an input event listener to the input that logs the input value to the console whenever it changes.
+-->
+<!Doctype html>
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+    <body>
+        <input id="myId" type="text" placeholder="Enter your name here">
+    
+    <script>
+        const element=document.querySelector('#myId');
+        element.addEventListener('input',function (){
+            console.log(element.value);
+        });
+    </script>
+    </body>
+</html>
