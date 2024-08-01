@@ -1,0 +1,25 @@
+<!--c.Create an HTML file with multiple <p> elements, each containing different text. Using JavaScript, add a mouseover event listener to each <p> element that changes the text color of that particular paragraph to red when the mouse is over it.
+-->
+<!Doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>
+            Web development is increasingly influenced by artificial intelligence (AI), which streamlines various processes from design to deployment. AI tools automate repetitive tasks, enhance user experiences, and improve workflows by generating code, identifying bugs, and optimizing designs. These innovations allow developers to focus on complex problem-solving while delivering advanced, user-friendly websites that stand out in a competitive digital landscape   
+        </p>
+        <p>Machine learning (ML) complements web development by enabling personalized user experiences and automating customer support through AI-powered chatbots. These chatbots utilize natural language processing to understand user inquiries, providing timely and relevant assistance. Furthermore, ML algorithms analyze user data to tailor content and recommendations, enhancing engagement and satisfaction</p>
+        <p>AI also plays a crucial role in search engine optimization (SEO), simplifying the process of keyword analysis and content generation. AI-driven tools can suggest high-performing keywords and even create content that aligns with user preferences, improving a website's visibility and effectiveness. This integration of AI in SEO helps businesses optimize their online presence and drive more organic traffic</p>
+   <script>
+       const elements=document.querySelectorAll("p");
+        for (let i=0;i<elements.length;i++){
+            elements[i].addEventListener('mouseover', function() { 
+                this.style.color = "red"; }); 
+            elements[i].addEventListener('mouseout', function() { 
+                this.style.color = "";  }); }
+       
+   </script>
+    </body>
+
+</html>

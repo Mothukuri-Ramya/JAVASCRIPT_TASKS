@@ -1,0 +1,25 @@
+<!--a.Create an HTML form element with an input and a submit button. Using JavaScript, add a submit event listener to the form that prevents the default form submission and logs "Form submitted!" to the console.
+-->
+<!Doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form id="myForm">
+            <input type="text" placeholder="Enter amount">
+            <button type="submit">Submit</button>
+        </form>
+        <script>
+             document.addEventListener("DOMContentLoaded", function() {
+            const form=document.getElementById('myForm');
+            form.addEventListener("submit",handleSubmit);
+             });
+             function handleSubmit(event){
+                event.preventDefault();
+                console.log("form submitted");
+
+            }
+        </script>
+        
+    </body>
+</html>

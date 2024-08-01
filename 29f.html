@@ -1,0 +1,47 @@
+<!--f.Create a <div> and four buttons. Each button represents a font size: Small, Medium, Large, Extra Large. When a button is clicked, the font size of the <div> changes to the corresponding size. By default, the font size of the <div> is medium.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #textBox {
+            font-size: 16px; /* Medium size */
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="textBox">This is a sample text. Click the buttons to change my font size!</div>
+    <button id="smallButton">Small</button>
+    <button id="mediumButton">Medium</button>
+    <button id="largeButton">Large</button>
+    <button id="extraLargeButton">Extra Large</button>
+
+    <script>
+        const textBox = document.getElementById('textBox');
+
+        document.getElementById('smallButton').addEventListener('click', function() {
+            textBox.style.fontSize = '12px'; // Small
+        });
+
+        document.getElementById('mediumButton').addEventListener('click', function() {
+            textBox.style.fontSize = '16px'; // Medium
+        });
+
+        document.getElementById('largeButton').addEventListener('click', function() {
+            textBox.style.fontSize = '20px'; // Large
+        });
+
+        document.getElementById('extraLargeButton').addEventListener('click', function() {
+            textBox.style.fontSize = '24px'; // Extra Large
+        });
+    </script>
+</body>
+</html>

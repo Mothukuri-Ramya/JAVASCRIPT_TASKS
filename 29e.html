@@ -1,0 +1,47 @@
+<!--e.Create a <div> element and four buttons. Each button corresponds to a color: red, yellow, blue, and green. When a button is clicked, the background color of the <div> changes to the color of the button. By default, the background color of the <div> is white-->
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            #colorBox {
+                width: 300px;
+                height: 200px;
+                border: 1px solid black;
+                margin-bottom: 10px;
+            }
+            button {
+                margin: 5px;
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="colorBox"></div>
+        <button id="redButton">Red</button>
+        <button id="yellowButton">Yellow</button>
+        <button id="blueButton">Blue</button>
+        <button id="greenButton">Green</button>
+    
+        <script>
+            const colorBox = document.getElementById('colorBox');
+    
+            document.getElementById('redButton').addEventListener('click', function() {
+                colorBox.style.backgroundColor = 'red';
+            });
+    
+            document.getElementById('yellowButton').addEventListener('click', function() {
+                colorBox.style.backgroundColor = 'yellow';
+            });
+    
+            document.getElementById('blueButton').addEventListener('click', function() {
+                colorBox.style.backgroundColor = 'blue';
+            });
+    
+            document.getElementById('greenButton').addEventListener('click', function() {
+                colorBox.style.backgroundColor = 'green';
+            });
+        </script>
+    </body>
+    </html>
+    
